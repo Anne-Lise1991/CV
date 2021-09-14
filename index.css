@@ -4,11 +4,13 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/* index.html */
 .nav .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    width: 100px;
 }
 
 .nav {
@@ -30,7 +32,7 @@ body {
 }
 
 .text-one {
-    margin-bottom: 140px;
+    margin-bottom: 80px;
 }
   
 .nav a {
@@ -43,4 +45,26 @@ body {
     font-size: 24px;
 }
   
-  
+/* Om meg */
+.about img {
+    width: 112px;
+    border-radius: 56px;
+}
+
+.about h1 {
+    color: #E9ECEF;
+    font-size: 48px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.about-text {
+    background: #C4C4C4;
+    border-radius: 47px;
+    text-align: center;
+
+}
