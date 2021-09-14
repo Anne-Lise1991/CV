@@ -1,237 +1,46 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
-    background: #E9ECEF;
+    background: #343A40;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.header .logo {
-    width: 50px;
-    float: left;
-    margin-left: 20px;
-
-}
-
-.header h1 {
-    text-align: center;
-    font-size: 0.8rem;
-    margin-left: 60px;
-}
-
-.header .head-photo {
-    width: 300px;
-    border-radius: 50%;
+.nav .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-.about-me {
-    background: #6C757D;
-    text-align: center;
-    padding: 5px;
-    margin-top: 40px;
-    color: #fff;
-}
-
-.about-me p {
-    font-size: 1.7rem;
-}
-  
-/* Slideshow prosjekter */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    margin-top: 50px;
-  }
-  
-  .mySlides {
-    display: none;
-  }
-  
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #333;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  .numbertext {
-    color: #333;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: top;
-  }
-  
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-
-.text p {
-    margin-left: 20px;
+.nav {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 
-.header h2 {
-    text-align: center;
+.text-one,
+.text-two {
+    font-size: 30px;
+    letter-spacing: 0.6em;
 }
 
-.work-one,
-.school-one {
-    font-size: 2rem;
-    color: white;
+.text-one,
+.text-two {
+    margin-left: 50px;
+    color: #E9ECEF;
 }
 
-.work,
-.school {
-    font-size: 1.3rem;
-    text-align: center;
-    color: white;
+.text-one {
+    margin-bottom: 140px;
+}
+  
+.nav a {
+    text-decoration: none;
+    color: #E9ECEF;
 }
 
-.slide-text {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 160px;
+.nav li {
+    margin-left: 30px;
+    font-size: 24px;
 }
-
-/* Nettbrett */
-@media (min-width: 1000px) {
-    .header h1 {
-        font-size: 3.7rem;
-    }
-
-    .header h2 {
-        font-size: 2.2rem;
-    }
-
-    .header img {
-        width: 430px;
-    }
-
-    .about-me {
-        font-size: 1.8rem;
-    }
-
-    .project {
-        font-size: 2.7rem;
-    }
-
-    .work-one,
-    .school-one {
-        font-size: 2.7rem;
-    }
-
-    .work,
-    .school {
-        font-size: 1.6rem;
-    }
-
-}
-
-/* Pc */
-@media (min-width: 1300px) {
-    .head {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .about-me {
-        margin-left: 75px;
-        margin-top: 0;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        border-top-left-radius: 10%;
-        scroll-behavior: smooth;
-    }
-
-    .about-me p {
-        font-size: 1.6rem;
-    }
-
-    .header h1 {
-        margin-top: 0;
-    }
-
-    .header .head-photo {
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-
-    .header .logo {
-        margin-left: 30px;
-        margin-top: 25px;
-        width: 80px;
-    }
-
-    .erfaring {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: space-around;
-        margin-left: 15px;
-    }
-
-    .work {
-        background: #6C757D;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
-    }
-
-    .school {
-        background: #6C757D;
-        border-top-left-radius: 32%;
-        border-top-right-radius: 32%;
-    }
-
-    .container {
-        padding: 20px;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        text-align: center;
-        margin-left: 250px;
-        margin-top: 20px;
-    }
-
-    .slide-text {
-        margin-top: 0;
-        margin-left: 50px;
-    }
-
-}
+  
+  
