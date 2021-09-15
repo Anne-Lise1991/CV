@@ -4,6 +4,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/* Mobil stående */
 /* index.html */
 .nav .logo {
     display: block;
@@ -49,11 +50,13 @@ body {
 .about img {
     width: 112px;
     border-radius: 56px;
+    margin-top: 40px;
 }
 
 .about h1 {
     color: #E9ECEF;
     font-size: 48px;
+    margin-top: 70px;
 }
 
 .about {
@@ -67,4 +70,47 @@ body {
     border-radius: 47px;
     text-align: center;
 
+}
+
+/* Prosjekter */
+.container img {
+    width: 360px;
+    margin-bottom: 0;
+}
+
+.project {
+    color: #E9ECEF;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container p {
+    background: #C4C4C4;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+/* CV */
+
+
+/* Mobil liggende */
+@media (min-width: 660px) {
+    .nav {
+        float: right;
+
+    }
+}
+
+/* Nettbrett */
+@media (min-width: 1000px) {
+    .nav {
+        float: right;
+        margin-right: 50px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: row;
+        
+    }
 }
