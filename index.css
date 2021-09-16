@@ -5,7 +5,7 @@ body {
 }
 
 /* Mobil stående */
-/* index.html */
+/* Hjem */
 .logo {
     display: block;
     margin-left: auto;
@@ -110,13 +110,18 @@ body {
 
 /* Pc */
 @media (min-width: 1300px) {
+    /* Hjem */
     .navbar {
-        float: right;
         margin-right: 10px;
+    }
+
+    .navbar li:first-child {
+        margin-left: 150px;
     }
 
     .navbar li {
         font-size: 36px;
+        margin-left: 250px;
     }
 
     .logo {
@@ -124,13 +129,49 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 90px;
     }
 
     .text {
         display: flex;
         flex-direction: row;
-        margin: 100px;
+        margin: 60px;
         justify-content: space-between;
     }
-    
+
+    /* Om meg */
+    .about img {
+        width: 362px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-text {
+        font-size: 24px;
+        padding: 30px;
+    }
+
+    /* Prosjekt */
+    .project {
+        font-size: 44px;
+    }
+
+    .container img {
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        margin-right: 312px;
+        margin-left: 312px;
+    }
 }
