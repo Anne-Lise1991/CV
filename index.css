@@ -6,7 +6,7 @@ body {
 
 /* Mobil stående */
 /* index.html */
-.nav .logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -112,15 +112,25 @@ body {
 @media (min-width: 1300px) {
     .navbar {
         float: right;
-        margin-right: 50px;
+        margin-right: 10px;
+    }
+
+    .navbar li {
+        font-size: 36px;
+    }
+
+    .logo {
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .text {
-       margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        margin: 100px;
+        justify-content: space-between;
     }
-
-    .anime {
-        margin-bottom: 130px;
-    }
-
+    
 }
