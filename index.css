@@ -91,8 +91,6 @@ body {
     /* Hjem */
     .navbar {
         margin-right: 10px;
-        position: fixed;
-        top: 0;
     }
 
     .navbar li:first-child {
@@ -104,15 +102,9 @@ body {
         margin-left: 250px;
     }
 
-    .text {
-        display: flex;
-        flex-direction: row;
-        margin: 60px;
-        justify-content: space-between;
-    }
-
    .title {
        text-align: center;
+       margin-top: 50px;
    }
 
    .animation {
@@ -123,7 +115,7 @@ body {
 
     /* Om meg */
     .about img {
-        width: 362px;
+        width: 360px;
     }
 
     .about {
@@ -132,7 +124,7 @@ body {
     }
 
     .about-text {
-        font-size: 24px;
+        font-size: 20px;
         padding: 30px;
     }
 
@@ -148,8 +140,8 @@ body {
 
     /* Prosjekt */
     .project {
-        font-size: 44px;
-        margin-top: 100px;
+        font-size: 2.5rem;
+        margin-top: 150px;
     }
 
     .container img {
@@ -165,11 +157,19 @@ body {
         margin-right: 50px;
         margin-left: 20px;
         margin-top: 10px;
+        padding: 2em;
     }
 
     .container {
         display: flex;
         flex-direction: row;
     }
+
+    .projects-page .navbar {
+        position: fixed;
+        top: 0;
+    }
+
+
  
 }
