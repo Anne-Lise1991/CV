@@ -91,6 +91,8 @@ body {
     /* Hjem */
     .navbar {
         margin-right: 10px;
+        position: fixed;
+        top: 0;
     }
 
     .navbar li:first-child {
@@ -134,9 +136,40 @@ body {
         padding: 30px;
     }
 
+    .about-me {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-text {
+        margin-top: 40px;
+    }
+
+
     /* Prosjekt */
     .project {
         font-size: 44px;
+        margin-top: 100px;
+    }
+
+    .container img {
+        width: 600px;
+        margin-right: 50px;
+    }
+
+    .container img:first-child {
+        margin-left: 20px;
+    }
+
+    .container p {
+        margin-right: 50px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
     }
  
 }
