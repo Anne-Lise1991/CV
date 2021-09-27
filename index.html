@@ -12,25 +12,41 @@
     </head>
     <body>
 
-        <ul class="navbar">
-            <li><a href="index.html">Hjem</a></li>
-            <li><a href="om-meg.html">Om meg</a></li>
-            <li><a href="prosjekter.html">Prosjekt</a></li>
-            <li><a href="cv.html">CV</a></li>
-        </ul>
-
+        <lottie-player class="animation" src="https://assets7.lottiefiles.com/packages/lf20_vf7vzf32.json"  background="#343a40"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
 
         <div class="title">
-            <h1>Anne Lise</h1>
+            <h1>UX <br>
+                designer</h1>
         </div>
 
-        <div class="text-two">
-            <h2> Frontend <br> 
-                utvikler </h2>
-        </div>
-        </div>
-
-        <lottie-player class="animation" src="https://assets5.lottiefiles.com/packages/lf20_jvkbug4h.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
+        <div class="menu">
+            <nav class="menu__nav">
+              <ul class="menu__list r-list">
+                <li class="menu__group">
+                  <a href="index.html" class="menu__link r-link">Hjem</a>
+                </li>
+                <li class="menu__group">
+                  <a href="prosjekter.html" class="menu__link r-link">Prosjekt</a>
+                </li>
+                <li class="menu__group">
+                  <a href="om-meg.html" class="menu__link r-link">Om meg</a>
+                </li>
+                <li class="menu__group">
+                  <a href="utdanning.html" class="menu__link r-link">Utdanning</a>
+                </li>
+                <li class="menu__group">
+                  <a href="arbeidserfaring.html" class="menu__link r-link">Arbeidserfaring</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="menu__toggle r-button" type="button">
+              <span class="menu__hamburger m-hamburger">
+                <span class="m-hamburger__label">
+                  <span class="menu__toggle-hint screen-reader">Open menu</span>
+                </span>
+              </span>
+            </button>
+          </div>
 
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="index.js"></script>
