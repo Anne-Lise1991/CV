@@ -345,3 +345,25 @@ img {
     color: #E9ECEF;
     text-align: center;
 }
+
+@media (min-width: 1300px) {
+    .title {
+        margin-top: 70px;
+    }
+
+    img {
+        width: 700px;
+        margin-right: 20px;
+    }
+
+    .c-one {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .c-one p {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
