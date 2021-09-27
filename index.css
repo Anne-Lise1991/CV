@@ -344,6 +344,19 @@ img {
     font-size: 1.6rem;
     color: #E9ECEF;
     text-align: center;
+    border-bottom: 2px solid #B29057;
+    margin: 50px;
+    width: 20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.work p:last-child,
+.school p:last-child,
+.work .work-one,
+.school .school-one {
+    border: none;
 }
 
 @media (min-width: 1300px) {
