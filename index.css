@@ -347,6 +347,7 @@ img {
 }
 
 @media (min-width: 1300px) {
+    /* Prosjekt */
     .title {
         margin-top: 70px;
     }
@@ -384,4 +385,7 @@ img {
     .project {
         font-size: 40px;
     }
+
+    /* Om meg */
+    
 }
