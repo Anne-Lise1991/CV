@@ -354,6 +354,8 @@ img {
     img {
         width: 700px;
         margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 50px;
     }
 
     .c-one {
@@ -361,9 +363,25 @@ img {
         flex-direction: row;
     }
 
-    .c-one p {
+    .c-one p,
+    .c-one a {
         text-align: center;
         padding: 10px;
         font-size: 20px;
+    }
+
+    a {
+        background: #B29057;
+        color: #333;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+
+    .c-one p {
+        margin-right: 20px;
+    }
+
+    .project {
+        font-size: 40px;
     }
 }
