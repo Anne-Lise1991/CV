@@ -331,6 +331,17 @@ img {
     margin-bottom: 20px;
 }
 
+a {
+    background: #B29057;
+    color: #333;
+    text-decoration: none;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 /* CV */
 .work .work-one,
 .school .school-one {
@@ -346,10 +357,6 @@ img {
     text-align: center;
     border-bottom: 2px solid #B29057;
     margin: 50px;
-    width: 20%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .work p:last-child,
@@ -416,5 +423,13 @@ img {
         margin-right: 50px;
         margin-left: 50px;
         padding: 20px;
+    }
+
+    .work,
+    .school {
+        width: 30%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
